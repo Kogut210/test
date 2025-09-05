@@ -1,0 +1,114 @@
+.movies {
+    height: 700px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: Arial;
+    background-color: rgb(0, 0, 0);
+}
+
+p {
+   font-size: 25px;
+   display: flex;
+   justify-content: center;
+   margin-left: 550px;
+   height: 80px;
+   width: 900px;
+   position: relative;
+   bottom: 700px;
+   color: rgb(255, 255, 255);
+   
+}
+
+h2 {
+font-size: 100px;
+background-color: rgb(155, 0, 0);
+box-shadow: 5px 5px 20px rgb(0, 0, 0) ;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: 82px;
+}
+
+
+h1 {
+font-size: 100px;
+color: white;
+}
+
+span {
+    font-size: 40px;
+    position: relative;
+    top: 100px;
+    right: 700px;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(24, 23, 23);
+}
+
+
+.Movies {
+    background-color: rgb(24, 24, 24);
+}
+
+.Siedem {
+    height: 700px;
+    width: 500px;
+}
+
+.posters {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+     transition: transform 1s ease;
+}
+.posters:hover {
+    transform: scale(1.1);
+}
+.Labirynt {
+    height: 700px;
+    width: 500px;
+}
+.series {
+    display: flex;
+    vertical-align: auto;
+}
+ .serial {
+    background-color: rgb(48, 42, 51);
+ }
+ .serialdis{
+    position: relative;
+    left: 400px;
+    margin-top: 100px;
+   
+ }
+
+ .cyberpunk {
+    height: 600px;
+    width: 900px;
+ }
+
+ .Arcane {
+    height: 600px;
+    width: 900px;
+ }
+ .instagram {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 100px;
+    border-radius: 50px;
+    transition: 0.2s ease;
+ }
+ .instagram:hover {
+    transform: scale(1.1);
+ }
